@@ -8,9 +8,9 @@ public class Pessoa extends Ser{
         this.sobrenome = sobrenome;
     }
     void criaMain(){
-        Main meuMain = new Main();
-        System.out.println(meuMain.name);
-        System.out.println(meuMain.salary);
+//        Main meuMain = new Main();
+//        System.out.println(meuMain.name);
+//        System.out.println(meuMain.salary);
         this.idade = 2;
     }
 
