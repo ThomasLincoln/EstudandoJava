@@ -6,10 +6,6 @@ public class App {
 
         List<Integer> number = Arrays.asList(2, 3, 4, 5);
 
-        List<Integer> square = number.stream()
-                .map(x -> x + x)
-                .collect(Collectors.toList());
-
         List<String> names = Arrays.asList(
                 "Reflection", "Collection", "Stream");
 
